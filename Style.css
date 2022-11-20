@@ -1,0 +1,220 @@
+.header {
+    background:radial-gradient(rgb(96, 211, 157),rgb(120, 208, 238)) ;
+    padding: 65px;
+    font-size: 80px;
+    font-style: normal;
+    color: rgb(24, 110, 24);
+    text-align: center;
+    margin-bottom: 0px;   
+}
+body {
+    background: linear-gradient(rgb(108, 231, 231),rgb(54, 204, 204),rgb(107, 231, 169))
+}
+
+.topbanner {
+    background:linear-gradient(rgb(176, 238, 30),rgb(27, 204, 65));
+    padding: 15px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.topbutton {
+    background: radial-gradient(rgb(95, 173, 224),lightblue);
+    padding: 15px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin-inline-end: 10px;
+    font-family: Arial, Geneva, Helvetica, sans-serif;
+}
+
+.detail {
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(211, 89, 18);
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 50px;
+}
+
+.detaildot {
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(211, 89, 18);
+    text-align: center;
+}
+
+.image {
+    text-align: center;
+}
+
+.mathimg {
+    width: 100%;
+}
+
+.shapeimg {
+    margin-top: 200px;
+    width: 75%;
+}
+
+.volumeimg {
+    width: 50%;
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+
+.footer {
+    background:radial-gradient(rgb(96, 211, 157),rgb(120, 208, 238));
+    padding: 30px;
+    font-size: 50px;
+    color: brown;
+    text-align: center; 
+}
+
+.perall {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+    background-color: lightgray;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-style: groove;
+}
+
+.pertext {
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.persubtext {
+    font-size: 25px;
+}
+
+.perimage {
+    width: 40%;
+    display: inline-block;
+}
+
+.pericircle {
+    width: 35%;
+    display: inline-block;
+}
+
+.ansbutton {
+    color: blueviolet;
+    font-size: 25px;
+    padding: 15px;
+    background-color: powderblue;
+    margin-top: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.recper1 {
+    margin-right: 20px;
+    padding: 5px;
+    background-color: aquamarine;
+}
+
+.recper2 {
+    padding: 5px;
+    background-color: aquamarine;
+}
+
+.triper1 {
+    margin-right: 20px;
+    padding: 5px;
+    background-color: aquamarine;
+}
+
+.triper2 {
+    margin-right: 20px;
+    padding: 5px;
+    background-color: aquamarine;
+}
+
+.triper3 {
+    margin-right: 20px;
+    padding: 5px;
+    background-color: aquamarine;
+}
+
+.cirper {
+    padding: 5px;
+    background-color: aquamarine;
+}
+
+.inputzone {
+    font-size: 20px;
+}
+
+.inputngonbt {
+    font-size: 20px;
+    margin-right: 265px;
+}
+
+.inputngonbt2 {
+    font-size: 20px;
+    margin-right: 465px;
+}
+
+.perans {
+    font-size: 30px;
+    padding: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: rgb(156, 212, 235);
+    margin-left: 10px;
+    border-style: dashed;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+}
+
+.triprismimg {
+    margin-left: 25px;
+    width: 30%;
+}
+
+.mainblock {
+    margin: auto;
+    block-size: auto;
+    border-style: groove;
+    background-color: bisque;
+    margin: 0 auto;
+    width: fit-content;
+    margin-top: 25px;
+    }
+   .title {
+    font-size: 30px;
+    margin-bottom: 5px;
+    text-align:center;
+    margin: auto;
+    width: 490px;
+    height: fit-content;
+    padding: 15px;
+    color:rgb(16, 13, 187);
+    border: solid black 2px;
+    background-color: rgb(67, 230, 167);
+   }
+   input[type="button"] {
+   font-size: 40px;
+   background-color: aquamarine;
+   color: black;
+   border: none;
+   width: 125px;
+   height: 50px;
+   border-style: dotted;
+   line-height: 10px;
+   }
+   input[type="text"] {
+   font-size: 40px;
+   background-color:gray;
+   border: none;
+   border-width: 5px;
+   width: 385px;
+   height: 60px;
+   text-align: end;
+   }

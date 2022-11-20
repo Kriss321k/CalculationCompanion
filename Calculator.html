@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>Calculation Companion</title>
+        <link rel="stylesheet" href="Style.css">
+        <script src="Calculator.js"></script>
+    </head>
+    <body>
+        <h1 class="header">Welcome to Calculation Companion</h1>
+        <div class="topbanner">
+            <a class="topbutton" href="index.html">Home</a>
+            <a class="topbutton" href="Perimeter.html">Perimeter Calculation</a>
+            <a class="topbutton" href="Area.html">Area Calculation</a>
+            <a class="topbutton" href="Volume.html">Volume Calculation</a>
+            <a class="topbutton" href="Calculator.html">Calculator</a>
+            <a class="topbutton" href="#">Contact us</a>
+        </div>
+        <div class="perall">
+            <p class="pertext">Mini Calculator</p>
+             <body>
+              <div class="mainblock">
+                <div class = title >Calculator</div>
+                <table border="1">
+                   <tr>
+                      <td colspan="3"><input type="text" id="result"/></td>
+                      <!-- clr() function will call clr to clear all value -->
+                      <td><input type="button" value="C" onclick="clr()"/> </td>
+                   </tr>
+                   <tr>
+                      <!-- create button and assign value to each button -->
+                      <!-- dis("1") will call function dis to display value -->
+                      <td><input type="button" value="1" onclick="dis('1')"/> </td>
+                      <td><input type="button" value="2" onclick="dis('2')"/> </td>
+                      <td><input type="button" value="3" onclick="dis('3')"/> </td>
+                      <td><input type="button" value="+" onclick="dis('+')"/> </td>
+                      
+                   </tr>
+                   <tr>
+                      <td><input type="button" value="4" onclick="dis('4')"/> </td>
+                      <td><input type="button" value="5" onclick="dis('5')"/> </td>
+                      <td><input type="button" value="6" onclick="dis('6')"/> </td>
+                      <td><input type="button" value="-" onclick="dis('-')"/> </td>
+                   </tr>
+                   <tr>
+                      <td><input type="button" value="7" onclick="dis('7')"/> </td>
+                      <td><input type="button" value="8" onclick="dis('8')"/> </td>
+                      <td><input type="button" value="9" onclick="dis('9')"/> </td>
+                      <td><input type="button" value="x" onclick="dis('*')"/> </td>
+                   </tr>
+                   <tr>
+                      <td><input type="button" value="." onclick="dis('.')"/> </td>
+                      <td><input type="button" value="0" onclick="dis('0')"/> </td>
+                      <!-- solve function call function solve to evaluate value -->
+                      <td><input type="button" value="=" onclick="solve()"/> </td>
+                      <td><input type="button" value="/" onclick="dis('/')"/> </td>
+                   </tr>
+                </table>
+              </div>
+             </body> 
+        </div>
+
+        <div class="perall">
+            <p class="pertext">Multiplication Table</p>
+            <script src="math.js"></script>
+            <p><input id="mathinput" style="text-align: center; font-size: 25px;"> <button style="font-size: 25px;" onclick="Multiply()">Result</button> <button style="font-size: 25px;" onclick="ResetM()">Reset</button></p>
+            <div id="mathoutput" style="max-width: 450px; background-color: gray; padding: 10px; font-size: 20px; font-size: 25px; color:azure; text-align: center; margin: auto;"></div>
+        </div>
+        
+        <div class="topbanner">
+            <a class="topbutton" href="index.html">Home</a>
+            <a class="topbutton" href="Perimeter.html">Perimeter Calculation</a>
+            <a class="topbutton" href="Area.html">Area Calculation</a>
+            <a class="topbutton" href="Volume.html">Volume Calculation</a>
+            <a class="topbutton" href="Calculator.html">Calculator</a>
+            <a class="topbutton" href="#">Contact us</a>
+        </div>               
+    </body>
+    <footer class="footer">
+        <p>........Thank you for using this Website........</p>
+    </footer>
+</html>

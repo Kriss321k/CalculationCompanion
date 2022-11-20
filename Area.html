@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>Calculation Companion</title>
+        <link rel="stylesheet" href="Style.css">
+        <script src="Area.js"></script>
+    </head>
+    <body>
+        <h1 class="header">Welcome to Calculation Companion</h1>
+        <div class="topbanner">
+            <a class="topbutton" href="index.html">Home</a>
+            <a class="topbutton" href="Perimeter.html">Perimeter Calculation</a>
+            <a class="topbutton" href="Area.html">Area Calculation</a>
+            <a class="topbutton" href="Volume.html">Volume Calculation</a>
+            <a class="topbutton" href="Calculator.html">Calculator</a>
+            <a class="topbutton" href="#">Contact us</a>
+        </div>
+        <div class="perall">
+            <p class="pertext">Area of Triangle</p>
+            <img class="perimage" src="./img/TriArea.png">
+            <p class="persubtext">Input Number below</p>
+            <p class="inputzone">b = <input id="numtriarea1" class="triper1" type="number"> h = <input id="numtriarea2" class="triper2" type="number"></p>
+            <p><button class="ansbutton" onclick="Printtriarea()">Answer</button></p>
+            <p class="persubtext">Area = <output id="outtrians" class="perans"></output></p> 
+        </div>
+        <div class="perall">
+            <p class="pertext">Area of Rectangle</p>
+            <img class="perimage" src="./img/RecArea.png">
+            <p class="persubtext">Input Number below</p>
+            <p class="inputzone">W = <input id="numrecarea1" class="triper1" type="number"> L = <input id="numrecarea2" class="triper2" type="number"></p>
+            <p><button class="ansbutton" onclick="Printrecarea()">Answer</button></p>
+            <p class="persubtext">Area = <output id="outrecans" class="perans"></output></p> 
+        </div>
+        <div class="perall">
+            <p class="pertext">Area of Trapezoid</p>
+            <img class="perimage" src="./img/TrpzArea.jpg">
+            <p class="persubtext">Input Number below</p>
+            <p class="inputzone">b = <input id="numtrpzarea1" class="triper1" type="number"> a = <input id="numtrpzarea2" class="triper2" type="number"> h = <input id="numtrpzarea3" class="triper3" type="number"></p>
+            <p><button class="ansbutton" onclick="Printtrpzarea()">Answer</button></p>
+            <p class="persubtext">Area = <output id="outtrpzans" class="perans"></output></p> 
+        </div>
+        <div class="perall">
+            <p class="pertext">Area of Symmetry N-Gon</p>
+            <img class="pericircle" src="./img/Ngon.png">
+            <p class="persubtext">Input Number below (Choose to input between x or r with N as an even number more than 4)</p>
+            <p class="inputzone">x = <input id="numngonarea1" class="triper1" type="number"> N = <input id="numngon" class="triper3" type="number"> (N>4)</p>
+            <p class="inputngonbt">r = <input id="numngonarea2" class="triper2" type="number"></p>
+            <p><button class="ansbutton" onclick="Printngonarea()">Answer</button></p>
+            <p class="persubtext">Area = <output id="outngonans" class="perans"></output></p> 
+        </div>
+        <div class="perall">
+            <p class="pertext">Area of Circle</p>
+            <img class="pericircle" src="./img/Circle.png">
+            <p class="persubtext">Input Number below</p>
+            <p class="inputzone">r = <input id="numcirarea" class="cirper" type="number"></p>
+            <p><button class="ansbutton" onclick="Printcirarea()">Answer</button></p>
+            <p class="persubtext">Area = <output id="outcirans" class="perans"></output></p> 
+        </div>
+        <div class="topbanner">
+            <a class="topbutton" href="index.html">Home</a>
+            <a class="topbutton" href="Perimeter.html">Perimeter Calculation</a>
+            <a class="topbutton" href="Area.html">Area Calculation</a>
+            <a class="topbutton" href="Volume.html">Volume Calculation</a>
+            <a class="topbutton" href="Calculator.html">Calculator</a>
+            <a class="topbutton" href="#">Contact us</a>
+        </div>               
+    </body>
+    <footer class="footer">
+        <p>........Thank you for using this Website........</p>
+    </footer>
+</html>

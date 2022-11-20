@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Calculation Companion</title>
+        <link rel="stylesheet" href="Style.css">
+        <script src="Perimeter.js"></script>
+    </head>
+    <body>
+        <h1 class="header">Welcome to Calculation Companion</h1>
+        <div class="topbanner">
+            <a class="topbutton" href="index.html">Home</a>
+            <a class="topbutton" href="Perimeter.html">Perimeter Calculation</a>
+            <a class="topbutton" href="Area.html">Area Calculation</a>
+            <a class="topbutton" href="Volume.html">Volume Calculation</a>
+            <a class="topbutton" href="Calculator.html">Calculator</a>
+            <a class="topbutton" href="#">Contact us</a>
+        </div>
+        <div class="perall">
+            <p class="pertext">Perimeter of Triangle</p>
+            <img class="perimage" src="./img/TriPerimeter.png">
+            <p class="persubtext">Input Number below</p>
+            <p class="inputzone">a = <input id="numtriper1" class="triper1" type="number"> b = <input id="numtriper2" class="triper2" type="number"> c = <input id="numtriper3" class="triper3" type="number"></p>
+            <p><button class="ansbutton" onclick="Printtriout()">Answer</button></p>
+            <p class="persubtext">Perimeter = <output id="outtrians" class="perans"></output></p> 
+        </div> 
+        <div class="perall">
+            <p class="pertext">Perimeter of Rectangle</p>
+            <img class="perimage" src="./img/RecPerimeter.png">
+            <p class="persubtext">Input Number below</p>
+            <p class="inputzone">Width = <input id="numrecper1" class="recper1" type="number"> Length = <input id="numrecper2" class="recper2" type="number"></p>
+            <p><button class="ansbutton" onclick="Printrecout()">Answer</button></p>
+            <p class="persubtext">Perimeter = <output id="outrecans" class="perans"></output></p> 
+        </div>
+        <div class="perall">
+            <p class="pertext">Perimeter of Symmetry N-gon</p>
+            <img class="pericircle" src="./img/Ngon.png">
+            <p class="persubtext">Input Number below ("N must be over 4 and Even number")</p>
+            <p class="inputzone">x = <input id="numngonper" class="recper1" type="number"> N (Number of Side) = <input id="numngon" class="recper2" type="number"></p>
+            <p><button class="ansbutton" onclick="Printngonout()">Answer</button></p>
+            <p class="persubtext">Perimeter = <output id="outngonans" class="perans"></output></p> 
+        </div> 
+        <div class="perall">
+            <p class="pertext">Perimeter of Circle</p>
+            <img class="pericircle" src="./img/Circle.png">
+            <p class="persubtext">Input Number below</p>
+            <p class="inputzone">r = <input id="numcirper" class="cirper" type="number"></p>
+            <p><button class="ansbutton" onclick="Printcirout()">Answer</button></p>
+            <p class="persubtext">Perimeter = <output id="outcirans" class="perans"></output></p> 
+        </div>
+        <div class="topbanner">
+            <a class="topbutton" href="index.html">Home</a>
+            <a class="topbutton" href="Perimeter.html">Perimeter Calculation</a>
+            <a class="topbutton" href="Area.html">Area Calculation</a>
+            <a class="topbutton" href="Volume.html">Volume Calculation</a>
+            <a class="topbutton" href="Calculator.html">Calculator</a>
+            <a class="topbutton" href="#">Contact us</a>
+        </div>               
+    </body>
+    <footer class="footer">
+        <p>........Thank you for using this Website........</p>
+    </footer>
+</html>
